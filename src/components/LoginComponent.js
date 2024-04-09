@@ -6,10 +6,10 @@ const LoginComponent = () => {
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <div className="text-center mb-4">
+          <div className="text-center mb-4 logo">
             <img src="/logo.jpg" alt="Logo" />
           </div>
-          <div className="card login-box">
+          <div className="login-box">
             <div className="card-body">
               <h2 className="text-center login-heading">Welcome Back</h2>
               <p className="text-center">Sign in to continue to Aiworksquad</p>
@@ -35,16 +35,14 @@ const LoginComponent = () => {
                       className="form-check-input"
                       id="remember-me"
                     />
-                    <label className="form-check-label" htmlFor="remember-me">
-                      Remember me
-                    </label>
+                    <label htmlFor="remember-me">Remember me</label>
                   </div>
                   <div className="forgot-password">
                     <a href="#">Forgot Password?</a>
                   </div>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">
+                <button type="submit" className="btn btn-primary">
                   Login
                 </button>
               </form>

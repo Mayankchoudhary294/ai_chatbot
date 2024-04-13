@@ -1,0 +1,103 @@
+
+.backgroundColor{
+    min-height: 100vh;
+    background-color: #323842;
+}
+
+.logoImage{
+    mix-blend-mode: multiply;
+    padding-left: 5px;
+}
+
+.logoName{
+    color: #FFFFFF;
+    font-stretch: expanded;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.login-box {
+    background-color: #171A1F;
+    color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70vh;
+    height: 70vh;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-heading{
+    font-weight: bold;
+    padding: 40px 20px 20px 20px;
+    font-size: x-large;
+}
+
+.sign-in-text{
+    padding-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 40vh;
+}
+
+.form-check-input[type="checkbox"] {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-group input {
+    background-color: #171A1F;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+
+.form-group input::placeholder {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    margin-bottom: 200px;
+    height: 5vh;
+}
+
+.remember-me input[type="checkbox"] {
+    transform: scale(0.7);
+    margin-right: 5px;
+}
+
+.footer-line{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
